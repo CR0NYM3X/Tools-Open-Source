@@ -1,6 +1,13 @@
 
 ## ✅ Procesamiento y Análisis de Datos
+ 
 
+**Apache Kafka**
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Plataforma distribuida para transmisión de datos en tiempo real, basada en el modelo **publish-subscribe**.
+*   **Ideal para:** Integración de sistemas, pipelines de datos, análisis en streaming, microservicios, IoT.
+ 
 1. **Apache Spark**  
    - **Licencia:** Apache License 2.0  
    - **Uso:** Procesamiento distribuido de grandes volúmenes de datos, compatible con batch y streaming.  
@@ -22,7 +29,13 @@
      - Integración y flujo de datos (ETL en tiempo real).  
      - Conectores para múltiples sistemas (bases de datos, APIs, IoT).  
    - **Ideal para:** Arquitecturas orientadas a microservicios y streaming.  
- 
+
+*   **Debezium**
+    *   Es un **framework open source** para **Change Data Capture (CDC)**.
+    *   Se conecta a bases de datos (PostgreSQL, MySQL, MongoDB, etc.) y captura cambios en tiempo real.
+    *   Publica esos cambios en **Kafka** u otros sistemas de mensajería.
+    *   **Licencia:** Apache 2.0.
+
 2.  **Apache Flink**
     *   Especializado en **streaming en tiempo real**.
     *   Muy eficiente para análisis continuo y eventos.

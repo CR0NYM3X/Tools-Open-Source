@@ -304,3 +304,159 @@
 *   **Amanda** / **rsnapshot** (clásicos; simples).
 
  
+# Seguridad
+
+## 🔐 Seguridad de Red y Firewall
+
+### **pfSense**
+
+*   **Licencia:** BSD
+*   **Uso:** Firewall y router avanzado, filtrado de paquetes, VPN, IDS/IPS.
+*   **Ideal para:** Redes empresariales, entornos híbridos, puede ofrecerse como firewall virtual en la nube.
+
+### **OPNsense**
+
+*   **Licencia:** BSD
+*   **Uso:** Firewall similar a pfSense, con interfaz moderna y sistema de plugins.
+*   **Ideal para:** Seguridad de red con administración sencilla y extensible.
+
+
+
+## 🛡️ Detección y Respuesta (IDS/IPS)
+
+### **Snort**
+
+*   **Licencia:** GPL
+*   **Uso:** Sistema de detección de intrusiones, análisis de tráfico.
+*   **Ideal para:** Monitoreo de seguridad en entornos cloud y on-premise.
+
+### **Suricata**
+
+*   **Licencia:** GPL
+*   **Uso:** IDS/IPS con análisis profundo y soporte para protocolos modernos.
+*   **Ideal para:** Redes de alto rendimiento y detección avanzada.
+
+
+
+## 👤 Gestión de Identidades y Accesos
+
+### **Keycloak**
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Autenticación, autorización, SSO, OAuth2, OpenID Connect.
+*   **Ideal para:** Aplicaciones empresariales y microservicios.
+
+
+
+## 🔑 Cifrado y Gestión de Secretos
+
+### **HashiCorp Vault**
+
+*   **Licencia:** MPL 2.0
+*   **Uso:** Gestión segura de secretos, cifrado de datos, control de acceso.
+*   **Ideal para:** Infraestructura segura en entornos cloud y DevOps.
+
+
+
+## 🔍 Escaneo de Vulnerabilidades
+
+### **OpenVAS**
+
+*   **Licencia:** GPL
+*   **Uso:** Escaneo de vulnerabilidades en sistemas y redes.
+*   **Ideal para:** Auditorías de seguridad y cumplimiento normativo.
+
+
+
+## 🐳 Seguridad de Contenedores
+
+### **Trivy**
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Escaneo de vulnerabilidades en imágenes Docker/Kubernetes.
+*   **Ideal para:** Seguridad en pipelines CI/CD.
+
+### **Clair**
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Análisis de vulnerabilidades en contenedores.
+*   **Ideal para:** Integración con registries y plataformas cloud-native.
+
+
+
+## 📊 Monitoreo y SIEM
+
+### **Wazuh**
+
+*   **Licencia:** GPL
+*   **Uso:** SIEM, monitoreo de seguridad, cumplimiento normativo.
+*   **Ideal para:** Detección de amenazas en entornos cloud y on-premise.
+
+### **OSSEC**
+
+*   **Licencia:** GPL
+*   **Uso:** HIDS (Host-based Intrusion Detection System).
+*   **Ideal para:** Protección de servidores y endpoints.
+
+
+
+## 🌐 Seguridad de Aplicaciones Web
+
+### **OWASP ZAP (Zed Attack Proxy)**
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Escaneo de vulnerabilidades en aplicaciones web.
+*   **Ideal para:** Pruebas de seguridad en desarrollo y QA.
+
+### **ModSecurity**
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** WAF (Web Application Firewall) para Apache/Nginx.
+*   **Ideal para:** Protección contra ataques web (SQLi, XSS).
+ 
+
+
+# Monitoreo
+
+### **Prometheus** 
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Sistema de monitoreo y base de datos de series temporales; recolecta métricas mediante scraping y alerta con PromQL.
+*   **Ideal para:** Entornos cloud-native y Kubernetes; monitoreo de métricas de infraestructura y contenedores. 
+
+### **Grafana**  
+
+*   **Licencia:** Apache License 2.0
+*   **Uso:** Plataforma de visualización de datos y dashboards que se integra con Prometheus, Elasticsearch, InfluxDB y otros.
+*   **Ideal para:** Crear paneles visuales y alertas a partir de múltiples fuentes de datos.  
+
+### **Zabbix**
+
+*   **Licencia:** GPL v2
+*   **Uso:** Monitoreo integral de servidores, redes, aplicaciones con recopilación activa, SNMP y alerting.
+*   **Ideal para:** Infraestructura tradicional, grandes redes, auto-descubrimiento y monitoreo centralizado.
+
+
+### **Nagios Core**
+
+*   **Licencia:** GPL v2
+*   **Uso:** Motor de monitoreo con plugins para chequear estado de hosts y servicios vía SNMP, ICMP, etc.
+*   **Ideal para:** Ambientes donde se requiere máxima personalización de checks y alertas.  
+
+
+### **Netdata**
+
+*   **Licencia:** GPL v3
+*   **Uso:** Monitoreo en tiempo real con actualización por segundo, métricas detalladas e IA para detección.
+*   **Ideal para:** Resolver problemas de rendimiento en tiempo real en servidores, contenedores y nube. 
+
+
+### **ELK Stack (Elasticsearch, Logstash, Kibana)**
+
+*   **Licencias:** Elasticsearch/Kibana bajo AGPL; Logstash y Beats open source
+*   **Uso:** Ingesta, almacenamiento y visualización de logs y datos de eventos.
+*   **Ideal para:** Log management, análisis en profundidad, monitoreo con búsquedas complejas.  
+
+ 
+ 
+ 

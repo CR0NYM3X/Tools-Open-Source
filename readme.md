@@ -456,7 +456,12 @@
 *   **Licencias:** Elasticsearch/Kibana bajo AGPL; Logstash y Beats open source
 *   **Uso:** Ingesta, almacenamiento y visualización de logs y datos de eventos.
 *   **Ideal para:** Log management, análisis en profundidad, monitoreo con búsquedas complejas.  
-
  
+### **Icinga**
+
+*   **Licencia:** GPL v2
+*   **Uso:** Monitoreo de infraestructura, redes y aplicaciones, con alertas y paneles web.
+*   **Ideal para:** Sustituto moderno de Nagios, entornos empresariales con alta personalización.
+
  
  

@@ -387,7 +387,7 @@
 ## 📊 Monitoreo y SIEM
 
 ### **Wazuh**
-
+Es una solución de SIEM (Security Information and Event Management) y XDR (Extended Detection and Response) 
 *   **Licencia:** GPL
 *   **Uso:** SIEM, monitoreo de seguridad, cumplimiento normativo.
 *   **Ideal para:** Detección de amenazas en entornos cloud y on-premise.

@@ -1,5 +1,58 @@
+ 
+#  **¿Qué son las licencias de software?**
 
-## ✅ Procesamiento y Análisis de Datos
+Una **licencia de software** es como un **contrato** que dice **qué puedes hacer y qué no** con un programa.  
+Por ejemplo: ¿puedes copiarlo? ¿puedes venderlo? ¿puedes modificarlo?  
+Cada licencia tiene sus reglas.
+
+
+###  **1. Licencias Open Source (Código abierto)**
+
+Permiten usar, modificar y distribuir el software, generalmente con ciertas condiciones.
+
+*   **Apache License 2.0**
+    *   Permisiva, permite uso comercial, modificación y distribución.
+    *   Requiere mantener avisos de copyright y licencia.
+*   **MIT License**
+    *   Muy permisiva, permite casi todo con mínima restricción (solo mantener aviso de copyright).
+*   **BSD (Berkeley Software Distribution)**
+    *   Similar a MIT, muy permisiva, usada en proyectos como FreeBSD.
+*   **EPL (Eclipse Public License)**
+    *   Permite uso comercial, pero con ciertas restricciones en redistribución.
+*   **MPL (Mozilla Public License)**
+    *   Permite modificar, pero exige que los cambios se mantengan bajo MPL.
+ 
+
+###  **2. Licencias Copyleft (Software Libre)**
+
+Obligan a que las modificaciones se distribuyan bajo la misma licencia.
+
+*   **GPL (GNU General Public License)**
+    *   Muy popular, usada por Linux.
+    *   Todo derivado debe mantenerse bajo GPL.
+*   **LGPL (Lesser GPL)**
+    *   Similar a GPL, pero más flexible para librerías (permite enlazar con software propietario).
+*   **AGPL (Affero GPL)**
+    *   Igual que GPL, pero aplica también a software usado vía red (SaaS).
+ 
+
+###  **3. Licencias Propietarias**
+
+*   No permiten modificar ni redistribuir el código.
+*   Ejemplo: **Microsoft EULA**, **Oracle License**, **Adobe License**.
+
+
+###  **4. Licencias Creative Commons (para contenido, no software)**
+
+*   **CC BY**, **CC BY-SA**, **CC BY-NC**, etc.
+*   Usadas para documentación, imágenes, contenido educativo.
+ *
+
+
+---
+# Software
+
+##  Procesamiento y Análisis de Datos
  
 
 **Apache Kafka**
@@ -63,7 +116,7 @@
  
 ---
 
-## ✅ Bases de Datos
+##  Bases de Datos
 
 5. **PostgreSQL**  
    - **Licencia:** PostgreSQL License (similar a BSD)  
@@ -104,7 +157,7 @@
 ****
 ---
 
-## ✅ Orquestación y Workflow
+##  Orquestación y Workflow
 
 10. **Apache Airflow**  
     - **Licencia:** Apache License 2.0  
@@ -118,7 +171,7 @@
 
 ---
 
-## ✅ Machine Learning y Ciencia de Datos
+##  Machine Learning y Ciencia de Datos
 
 12. **TensorFlow**  
     - **Licencia:** Apache License 2.0  
@@ -132,7 +185,7 @@
 
 ---
 
-## ✅ Visualización
+##  Visualización
 
 14. **Apache Superset**  
     - **Licencia:** Apache License 2.0  
@@ -146,7 +199,7 @@
 
 ---
 
-## ✅ PBX
+##  PBX
 
 - **Asterisk:** El motor PBX más popular y robusto para VoIP. Permite crear sistemas telefónicos completos (IVR, colas, grabación, integración con SIP, etc.).  
 - **FreePBX:** Interfaz gráfica y framework sobre Asterisk que simplifica la administración.  
@@ -160,7 +213,7 @@
 
 ---
 
-## ✅ Contenedores
+##  Contenedores
 
 - **Docker**  
 - **Kubernetes**  
@@ -464,4 +517,23 @@ Es una solución de SIEM (Security Information and Event Management) y XDR (Exte
 *   **Ideal para:** Sustituto moderno de Nagios, entornos empresariales con alta personalización.
 
  
- 
+***
+
+### **Gestión Empresarial (ERP y CRM)**
+
+**Odoo**
+
+**Licencia:** LGPL v3  
+**Uso:** Suite empresarial modular que integra ERP, CRM, contabilidad, inventario, ventas, marketing y más en una sola plataforma.  
+**Ideal para:** Automatización de procesos, gestión integral de negocios, e-commerce, fabricación, recursos humanos.
+
+***
+
+### **Gestión de Activos y Servicios de TI (ITAM / ITSM)**
+
+**GLPI**
+
+**Licencia:** GPL v2  
+**Uso:** Plataforma open source para gestión de activos (ITAM) y servicios (ITSM), compatible con ITIL. Incluye inventario, sistema de tickets, gestión de contratos y base de conocimiento.  
+**Ideal para:** Soporte técnico, administración de infraestructura TI, control de licencias, gestión de incidencias y cambios.
+

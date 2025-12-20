@@ -531,9 +531,165 @@ Es una solución de SIEM (Security Information and Event Management) y XDR (Exte
 
 ### **Gestión de Activos y Servicios de TI (ITAM / ITSM)**
 
-**GLPI**
+### FusionInventory
+FusionInventory es **open source** y se utiliza principalmente como complemento para GLPI. Su función principal es realizar el **descubrimiento automático y la gestión de inventario de hardware y software** en una red.
 
-**Licencia:** GPL v2  
-**Uso:** Plataforma open source para gestión de activos (ITAM) y servicios (ITSM), compatible con ITIL. Incluye inventario, sistema de tickets, gestión de contratos y base de conocimiento.  
-**Ideal para:** Soporte técnico, administración de infraestructura TI, control de licencias, gestión de incidencias y cambios.
+###  **¿Qué hace FusionInventory?**
 
+*   **Inventario automático**: Detecta equipos, servidores, dispositivos de red, impresoras, software instalado, etc.
+*   **Escaneo de red**: Descubre dispositivos conectados mediante SNMP, WMI, SSH, etc.
+*   **Gestión de paquetes**: Permite desplegar software en equipos administrados.
+*   **Integración con GLPI**: Envía la información recolectada directamente a GLPI para mantener el inventario actualizado.
+*   **Agente multiplataforma**: Funciona en Windows, Linux, macOS.
+
+###  **Licencia**
+
+*   Es **gratuito y open source**, bajo licencia **GPL v2**.
+*   No requiere pago por uso, aunque existen empresas que ofrecen soporte profesional y servicios adicionales.
+
+ 
+### GLPI
+GLPI (Gestionnaire Libre de Parc Informatique) es una herramienta **open source** diseñada para la **gestión de activos de TI y soporte técnico**  (ITAM) y  (ITSM). Se utiliza principalmente en entornos corporativos para administrar recursos tecnológicos y brindar atención a usuarios. Sus principales funciones son:
+
+###  **¿Para qué sirve GLPI?**
+
+1.  **Gestión de inventario de TI**
+    *   Permite registrar y controlar equipos, servidores, dispositivos de red, software, licencias, contratos, etc.
+    *   Ofrece integración con herramientas de descubrimiento automático (como FusionInventory).
+
+2.  **Mesa de ayuda (Help Desk)**
+    *   Gestión de tickets para soporte técnico.
+    *   Seguimiento de incidencias, solicitudes y problemas.
+    *   Asignación de tareas a técnicos y control de SLA (acuerdos de nivel de servicio).
+
+3.  **Gestión de usuarios y perfiles**
+    *   Control de accesos, roles y permisos.
+    *   Integración con LDAP/Active Directory.
+
+4.  **Gestión de proyectos y cambios**
+    *   Planificación de proyectos relacionados con TI.
+    *   Control de cambios y actualizaciones en infraestructura.
+
+5.  **Reportes y estadísticas**
+    *   Informes sobre tickets, inventario, costos, tiempos de resolución, etc.
+
+6.  **Integración y extensibilidad**
+    *   Compatible con plugins para ampliar funcionalidades (monitorización, automatización, etc.).
+    *   API REST para integrarse con otras plataformas.
+ 
+
+### OCS Inventory
+OCS Inventory (Open Computer and Software Inventory) es una herramienta **open source** diseñada para la **gestión automática del inventario de hardware y software** en una red corporativa.
+
+###  **¿Qué es OCS Inventory?**
+
+*   Es un sistema que permite descubrir y registrar automáticamente todos los dispositivos conectados a la red (PC, servidores, impresoras, dispositivos móviles, etc.).
+*   Funciona mediante **agentes instalados en los equipos** que envían información al servidor OCS.
+*   Compatible con Windows, Linux, macOS y otros sistemas.
+
+### **¿Para qué sirve?**
+
+1.  **Inventario de hardware y software**
+    *   Detecta CPU, RAM, discos, tarjetas de red, sistema operativo, aplicaciones instaladas.
+2.  **Escaneo de red**
+    *   Descubre dispositivos mediante protocolos como SNMP.
+3.  **Gestión de paquetes**
+    *   Permite desplegar software o actualizaciones en equipos administrados.
+4.  **Integración con GLPI**
+    *   OCS puede enviar datos a GLPI para mantener el inventario actualizado.
+5.  **Control de licencias**
+    *   Ayuda a identificar software no autorizado o sin licencia.
+
+###  **Licencia**
+
+*   Es **gratuito y open source**, bajo licencia **GPL**.
+*   No requiere pago, aunque existen empresas que ofrecen soporte profesional.
+
+
+ ---
+
+  
+###  **¿Qué es Zentyal?**
+**Zentyal** es una solución **open source** que convierte un servidor Linux (generalmente Ubuntu) en un **servidor de red completo para pequeñas y medianas empresas**. Está diseñado para ser una **alternativa a Windows Server** y ofrece una interfaz web amigable para administrar servicios.
+
+
+*   Es una distribución basada en Ubuntu orientada a la gestión de redes y servidores.
+*   Permite administrar servicios de infraestructura desde una interfaz gráfica sin necesidad de usar comandos complejos.
+
+
+###  **¿Para qué sirve Zentyal?**
+
+1.  **Controlador de dominio y Active Directory**
+    *   Implementa autenticación centralizada de usuarios y equipos.
+    *   Compatible con **Samba 4**, lo que permite integrarse con entornos Windows.
+
+2.  **Servidor de archivos e impresoras**
+    *   Compartición de recursos en red con permisos y cuotas.
+
+3.  **Servidor de correo**
+    *   Incluye servicios como SMTP, IMAP, POP3, antivirus y antispam.
+
+4.  **Servidor DHCP y DNS**
+    *   Asigna direcciones IP y resuelve nombres en la red local.
+
+5.  **Firewall y Gateway**
+    *   Control de tráfico, NAT, VPN (OpenVPN e IPsec).
+
+6.  **Gestión centralizada**
+    *   Todo se administra desde una interfaz web intuitiva.
+
+
+
+
+### **1. Bacula**
+
+*   **¿Qué es?**  
+    Bacula es una solución **open source** para **copias de seguridad (backup) y restauración** en entornos empresariales.
+*   **¿Para qué sirve?**
+    *   Realiza **backups automáticos** de servidores, bases de datos y estaciones de trabajo.
+    *   Permite **restaurar datos** en caso de pérdida o desastre.
+    *   Soporta múltiples sistemas operativos y almacenamiento en disco, cinta o nube.
+*   **Caso típico:**  
+    Una empresa con varios servidores Linux y Windows usa Bacula para programar copias de seguridad diarias y restaurar datos ante fallos.
+
+
+### **3. TrueNAS**
+
+*   **¿Qué es?**  
+    TrueNAS es un sistema operativo **open source** basado en FreeBSD para crear **almacenamiento en red (NAS)**.
+*   **¿Para qué sirve?**
+    *   Permite montar un **servidor de almacenamiento centralizado** para archivos, backups y máquinas virtuales.
+    *   Soporta protocolos como SMB, NFS, iSCSI.
+    *   Ofrece **ZFS** para alta integridad y snapshots.
+*   **Caso típico:**  
+    Una empresa implementa TrueNAS para tener un repositorio seguro donde guardar backups y compartir archivos entre departamentos.
+
+
+ 
+
+###  **¿Qué es MeshCentral?**
+
+*   Es un servidor que permite **administración remota** de computadoras, tanto dentro como fuera de la red corporativa.
+*   Funciona mediante **agentes instalados en los dispositivos** que se conectan al servidor MeshCentral.
+*   Compatible con Windows, Linux y macOS.
+ 
+
+###  **¿Para qué sirve?**
+
+1.  **Acceso remoto seguro**
+    *   Control total del escritorio (similar a TeamViewer o AnyDesk).
+    *   Acceso a la línea de comandos (SSH, PowerShell).
+
+2.  **Gestión centralizada**
+    *   Inventario básico de dispositivos.
+    *   Organización por grupos y usuarios.
+
+3.  **Transferencia de archivos**
+    *   Subir y descargar archivos entre el administrador y el equipo remoto.
+
+4.  **Multiusuario y roles**
+    *   Permite que varios técnicos trabajen en diferentes dispositivos con permisos definidos.
+
+5.  **Open Source y autoalojado**
+    *   No depende de servicios externos, ideal para empresas que buscan privacidad.
+ 

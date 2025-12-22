@@ -692,4 +692,32 @@ OCS Inventory (Open Computer and Software Inventory) es una herramienta **open s
 
 5.  **Open Source y autoalojado**
     *   No depende de servicios externos, ideal para empresas que buscan privacidad.
+
+
+ # WSO2 Enterprise Mobility Manager (EMM)
+
+Plataforma open source diseñada para gestionar dispositivos corporativos y BYOD en Android, iOS y Windows. [github.com], [wso2docs.a...assian.net]
+
+ 
+### 🔧 Funcionalidades clave
+
+#### 1. Gestión de dispositivos (MDM)
+
+*   Registro de dispositivos mediante un portal de autoservicio (Android, iOS, Windows)
+*   Implantación de políticas OTA: contraseñas, cámara, cifrado, etc
+*   Supervisión de cumplimiento, alertas y borrado remoto de configuración corporativa.
+*   Localización de dispositivos (GPS + sonorizar), seguimiento de inventario y metadatos. 
+*   Control de acceso y roles (RBAC), autenticación integrada con LDAP o Active Directory. 
+
+#### 2. Gestión de aplicaciones (MAM)
+
+*   Almacén de aplicaciones corporativas (Enterprise App Store) con aprobación, publicación y clasificación. 
+*   Distribución, actualización y eliminación de apps mediante API REST.
+*   Instalación de Web Clips y soporte a flujos multi-rol de provisión de apps.
+
+#### 3. Seguridad y cumplimiento
+
+*   Cifrado del almacenamiento en dispositivos y refuerzo obligatorio de PIN/contraseña.
+*   Borrado selectivo de datos corporativos sin afectar personales (wipe empresarial). 
+*   Supervisión de dispositivos con reportes y cumplimiento basado en políticas. 
  

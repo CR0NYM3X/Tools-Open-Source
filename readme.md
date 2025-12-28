@@ -154,6 +154,11 @@ Obligan a que las modificaciones se distribuyan bajo la misma licencia.
 *   **Licencia:** Apache 2.0 (open source, muy permisiva).
  
 
+###   **Valkey**
+###   **SQLLITE**
+###   **MongoDB**
+
+
 ****
 ---
 

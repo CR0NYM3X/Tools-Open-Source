@@ -348,6 +348,8 @@ Obligan a que las modificaciones se distribuyan bajo la misma licencia.
 *   **xrdp** (permite RDP hacia escritorios Linux).
 *   **Remmina** (cliente multiplataforma).
 *   **NoMachine** (gratuito, no 100% open-source; opcional).
+*   IAP Desktop
+*   MobaXterm
 
 > Para publicar apps/escritorios: Guacamole como gateway, o RDP nativo en servidores Windows unidos a Samba AD.
 

@@ -415,7 +415,31 @@ Obligan a que las modificaciones se distribuyan bajo la misma licencia.
 *   **Licencia:** MPL 2.0
 *   **Uso:** Gestión segura de secretos, cifrado de datos, control de acceso.
 *   **Ideal para:** Infraestructura segura en entornos cloud y DevOps.
+---
 
+**OpenBao** es el sucesor espiritual de código abierto de HashiCorp Vault. Nació a principios de 2024 (bajo el paraguas de la **Linux Foundation**) cuando HashiCorp cambió la licencia de Vault a una comercial, lo que impulsó a la comunidad a crear este "fork" para mantener la herramienta 100% gratuita y abierta.
+
+A diferencia de CipherTrust (Thales), que es un producto orientado a la seguridad de infraestructura y archivos, **OpenBao es una solución orientada a desarrolladores y DevOps**.
+ 
+### ¿Qué hace y para qué sirve?
+
+Su función principal es ser el "búnker" de una empresa para **gestionar secretos** de forma programática. Sirve para:
+
+1. **Gestión de Secretos Estáticos:** Almacenar de forma segura contraseñas, tokens de API o certificados SSL. Los datos se guardan cifrados y solo se entregan a usuarios o aplicaciones autenticadas.
+2. **Secretos Dinámicos (Just-in-Time):** En lugar de tener una contraseña de base de datos que dura años, OpenBao crea una credencial que vive solo 15 minutos y se destruye sola.
+3. **Cifrado como Servicio (Transit Encryption):** Las aplicaciones le envían texto plano a OpenBao, este lo cifra y lo devuelve. La aplicación nunca "ve" ni "guarda" la llave de cifrado; OpenBao hace todo el trabajo matemático.
+4. **Gestión de Identidades:** Permite unificar cómo se autentican tus servidores (ya sea que estén en AWS, Azure o en tu propio centro de datos) para que todos usen un mismo sistema de permisos.
+
+ 
+### Casos de Uso Reales
+
+* **Evitar contraseñas en el código (Hardcoded Secrets):** Un programador ya no escribe la clave de la base de datos en su código. La aplicación, al arrancar, le pide a OpenBao una clave temporal. Si alguien roba el código, no tiene la clave.
+* **Emisión automática de certificados:** OpenBao puede actuar como una autoridad de certificación (CA) interna para generar certificados TLS/SSL para tus microservicios de forma automática y con validez corta.
+* **Cumplimiento de auditoría:** Cada vez que alguien (o una máquina) intenta leer un secreto, OpenBao guarda un registro detallado: *quién, cuándo y desde dónde*. Esto es vital para pasar auditorías de seguridad.
+* **Protección de datos en tránsito:** Si tienes una aplicación que recibe números de tarjetas de crédito, puedes enviárselos a la API de OpenBao para que los cifre antes de guardarlos en tu base de datos. Así, si tu base de datos es hackeada, los datos son ilegibles.
+
+
+ --- 
 
 
 ## 🔍 Escaneo de Vulnerabilidades

@@ -549,7 +549,8 @@ Es una solución de SIEM (Security Information and Event Management) y XDR (Exte
 *   **Uso:** Monitoreo de infraestructura, redes y aplicaciones, con alertas y paneles web.
 *   **Ideal para:** Sustituto moderno de Nagios, entornos empresariales con alta personalización.
 
- 
+### **OpenSearch**
+
 ***
 
 ### **Gestión Empresarial (ERP y CRM)**
